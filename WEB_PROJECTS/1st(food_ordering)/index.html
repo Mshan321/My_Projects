@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+
+
+
+<body>
+
+    <!--This is navigation bar-->
+    <nav>
+        <a href="#"><label class="logo">FOODY</label></a>
+        <ul>
+            <li><a href="home">HOME</a></li>
+            <li><a href="register">REGISTER</a></li>
+            <li><a href="login">LOGIN</a></li>
+            <li><a href="contact">CONTACT US</a></li>
+        </ul>
+    </nav>
+
+
+
+    <!--This is main-->
+    <div class="main">
+        <h1>Try Different Everyday </h1>
+        <p id="demo"></p>
+        <button class="order" onclick='document.getElementById("demo").innerHTML = "Sorry! Orders Not Available"'>ORDER NOW</button>
+    </div>
+
+    
+
+    <!--This is food list-->
+    <div class="container">
+        <div class="ord">
+            <div><img src="assets/burger.jpg"></div>
+            <div class="details">
+                <h2>BURGERS</h2>
+                <a href="more"><button class="more">ORDER AND MORE</button></a>
+            </div>
+        </div>
+
+        <div class="ord">
+            <div><img src="assets/cake.jpg"></div>
+            <div class="details">
+                <h2>CAKES</h2>
+                <a href="more"><button class="more">ORDER AND MORE</button></a>
+            </div>
+        </div>
+
+        <div class="ord">
+            <div><img src="assets/pizza.jpg"></div>
+            <div class="details">
+                <h2>PIZZA</h2>
+                <a href="more"><button class="more">ORDER AND MORE</button></a>
+            </div>
+        </div>
+
+        <div class="ord">
+            <div><img src="assets/prawn.jpg"></div>
+            <div class="details">
+                <h2>PRAWN</h2>
+                <a href="more"><button class="more">ORDER AND MORE</button></a>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--This is table and list-->
+    <div class="final">
+        <div class="list">
+            <ul class="features">
+                <li><h3> >>   Deliver To Door Step With In 3-4 Hours</h3></li>
+                <li><h3> >>   Safely Packed Foods</h3></li>
+                <li><h3> >>   Using Pure Ingredients</h3></li>
+                <li><h3> >>   Mading By Well Experienced Chefs</h3></li>
+
+            </ul>
+        </div>
+
+        <div class="tabl">
+            <table>
+                <tr>
+                    <th>Monday</th>
+                    <th>Tuesday</th>
+                    <th>Wednesday</th>
+                    <th>Thursday</th>
+                    <th>Friday</th>
+                    <th>Saturday</th>
+                    <th>Sunday</th>
+                </tr>
+                <tr>
+                    <th colspan="6">8.00 am - 10.00 pm</th>
+                    <th>9.00 am - 7.00 pm</th>
+                </tr>
+            </table>
+            <h3 class="final"> ..STAY WITH US..</h3>
+        </div>
+    </div>
+    <footer>
+        <h4>created by Ishara Malshan</h4>
+    </footer>
+</body>
+</html>
